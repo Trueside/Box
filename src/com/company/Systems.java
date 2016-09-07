@@ -15,9 +15,9 @@ public class Systems {
         return i;
     }
 
-    public static int randomize(){
+    public static int randomBones(){
         Random random = new Random();
-        int number = (random.nextInt(12)+1);
+        int number = (random.nextInt(6)+1);
         return number;
     }
 }
