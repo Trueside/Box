@@ -2,16 +2,14 @@ package com.company;
 
 public class Boxer extends Human {
 
-    public int rang;
-
     public String handsPosition;
     public int power;
     public int health;
     public int stamina;
     public int blockSkill;
+    public int rang = 11;
 
-    public Boxer(){
-
+/*      public Boxer(){
         Systems.printing("Say your firstname!");
         this.firstName = Systems.scaning();
         Systems.printing("Say your lastname!");
@@ -31,7 +29,19 @@ public class Boxer extends Human {
         Systems.printing("Your block skill is...");
         this.blockSkill = Integer.parseInt(Systems.scaning());
         Systems.printing("Well done, son!");
+    }*/
 
+    public Boxer(String nickname, String handsPosition, int power, int health, int stamina, int blockSkill) {
+        this.nickname = nickname;
+        this.handsPosition = handsPosition;
+        this.power = power;
+        this.health = health;
+        this.stamina = stamina;
+        this.blockSkill = blockSkill;
     }
 
+    @Override
+    public void sayMyName() {
+        Systems.printing("I'm "+nickname);
+    }
 }
