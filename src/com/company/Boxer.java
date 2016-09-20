@@ -42,6 +42,6 @@ public class Boxer extends Human {
 
     @Override
     public void sayMyName() {
-        Systems.printing("I'm "+nickname);
+        Systems.printing("I'm "+nickname +". My power is "+power+", my health is "+health);
     }
 }
