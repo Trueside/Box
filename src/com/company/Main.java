@@ -4,8 +4,8 @@ public class Main {
     public static int i;
     public static void main(String[] args) throws InterruptedException {
 
-        Boxer boxer1 = new Boxer("Apollo","left",5,1,10,5);
-        Boxer boxer2 = new Boxer("Rocky","right",5,1,10,5);
+        Boxer boxer1 = new Boxer("Apollo","left",5,3,10,5);
+        Boxer boxer2 = new Boxer("Rocky","right",5,3,10,5);
 
         boxer1.sayMyName();
         boxer2.sayMyName();

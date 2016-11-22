@@ -10,5 +10,5 @@ public abstract class Human {
 
         Systems.printing(firstName+"'"+nickname+"'"+lastName);
 
-    }
+}
 }
